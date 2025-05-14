@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
 </head>
 <body>
     <nav>
@@ -40,19 +41,19 @@
     </nav>
     <section class="hero">
         <div class="hero-content">
-            <p>Hi There!</p>
+            <p class="Hi">Hi There!</p>
             <h1>I am KofiLartey</h1>
             <h1>A web Developer</h1>
             <p class="bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore tempora in neque laboriosam veniam, doloremque facere tempore mollitia, vel harum beatae officia saepe laudantium incidunt magnam minus corporis adipisci animi.</p>
-            <div>
+            <div class="button-container">
                 <a href="#">
-                    <button>HIRE ME</button>
+                    <button class="button1">HIRE ME</button>
                 </a>
                 <a href="#">
-                    <button>VIEW PORTFORLIO</button>
+                    <button class="button2">VIEW PORTFORLIO</button>
                 </a>
             </div>
-            <div>
+            <div class="social-links">
                 <a href="">
                     <span>+ FACEBOOK</span>
                 </a>
@@ -63,6 +64,21 @@
                     <span>+ LINKEDIN</span>
                 </a>
             </div>
+        </div>
+    </section>
+    <section class="w-[80%] h-[648px] mx-auto mt-[80px] flex flex-row justify-around">
+        <div class="w-[45%] bg-[url(/images/asset1.jpeg)] bg-cover bg-center">
+        </div>
+        <div class="w-[45%]">
+            <div>
+                <span>ABOUT ME</span>
+                <span>SKILLS</span>
+                <span>EXPERIENCE</span>
+            </div>
+            <h1>My Story</h1>
+            <P>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</P>
+            <h2>I Do Web Design & Developement since I was 18 Years Old</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
         </div>
     </section>
 </body>
